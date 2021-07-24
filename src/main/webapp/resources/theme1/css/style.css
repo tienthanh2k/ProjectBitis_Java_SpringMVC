@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+}
+.top {
+	width: 100%;
+	height: 60px;
+	background: black;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+#giohang span{
+	color: white;
+}
+.giohang {
+	color: white;
+	text-align: center;
+	float: right;
+}
+
+.giohang img {
+	padding-top: 5px;
+}
+
+.giohang p {
+	margin: 0;
+}
+
+.giohang a:link, .giohang a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	text-align: center;
+	border-bottom: solid 1px #beaaaa;
+}
+
+.logo a:link, .logo a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.menu #divLeft {
+	width: 70%;
+	height: 50px;
+	float: left;
+}
+
+.menu #divRight {
+	width: 30%;
+	height: 50px;
+	float: right;
+	margin-top: 18px;
+}
+
+#divLeft li {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+}
+
+#divLeft li a {
+	text-decoration: none;
+	color: black;
+}
+
+#divLeft li a:hover {
+	color: red;
+}
+
+#divLeft li .active {
+	color: red;
+}
+
+#txtSearch {
+	padding: 5px;
+	float: right;
+}
+
+#btnSubmit {
+	background: url(../img/loupe.png) no-repeat 0px 0px;
+	padding-left: 19px;
+    padding-bottom: 7px;
+    border: none;
+    margin-left: 5px;
+	margin-top: 3px;
+	cursor: pointer;
+	float: right;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.about {
+	padding-top: 50px;
+	height: 300px;
+}
+
+.about .hinhnoibat {
+	float: left;
+	padding-right: 40px;
+}
+
+.product {
+	
+}
+
+.oneproduct {
+	border: 1px solid #e6d9d9;
+	text-align: center;
+	float: left;
+    padding: 33px;
+    margin-right: 40px;
+    margin-left: 40px;
+	margin-bottom: 30px;
+}
+.thongtinsp {
+}
+
+.oneproduct .thongtinsp div {
+	position:relative;
+}
+
+.oneproduct .thongtinsp div img {
+	position: absolute;
+	left: 19px;
+    top: -4px;
+}
+
+.information {
+	clear: both;
+}
+
+.information .infor {
+	float: left;
+	width: 25%;
+	text-align: left;
+}
+
+.infor ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.infor ul li{
+	padding-top: 5px;
+	height: 30px;
+}
+
+.infor ul li a{
+	text-decoration: none;
+	color: gray;
+}
+
+.infor ul li a:hover {
+	color: green;
+}
+
+.infor ul li span img {
+	float: left;
+    padding-right: 5px;
+	padding-top: -2px;
+	margin-top: -2px;
+}
